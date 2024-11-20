@@ -1,0 +1,26 @@
+-Prompt the user to input height
+-Height minimum should be 1 and maximum should be 8, if it is out of these bounds or not an integer, ask for input again
+
+
+
+
+.......#
+......##
+.....###
+....####
+...#####
+..######
+.#######
+########
+
+height = 8
+height = no. of dots + hashes
+height - hashes = no. of dots
+
+ for (int i = 0; i <= h; i++)
+    { for (int j = 0; j < i; j++)
+        {
+            
+            printf("#");
+        }
+        printf("\n");    

@@ -1,0 +1,1 @@
+SELECT destination_airport_id FROM flights WHERE day = 29 AND month = 7 AND year = 2020 AND id = 36
